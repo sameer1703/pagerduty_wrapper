@@ -70,4 +70,12 @@ RSpec.describe PagerdutyWrapper do
       end
     end
   end
+
+  # describe '#resolve_incident' do
+  #   it 'resolves incident' do
+  #     allow_any_instance_of(PagerdutyIncident).to receive(:resolve).and_return("pass")
+  #     allow_any_instance_of(Pagerduty).to receive(:get_incident).and_return(PagerdutyIncident)
+  #     PagerdutyWrapper.resolve_incident('abcdef')
+  #   end
+  # end
 end
