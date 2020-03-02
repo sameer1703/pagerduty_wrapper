@@ -40,7 +40,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '>= 12.3.3'
   spec.add_development_dependency 'reek', '>= 4.8.1'
-  spec.add_development_dependency 'rubocop', '~> 0.39.0'
+  spec.add_development_dependency 'rubocop', '>= 0.49.0'
   spec.add_development_dependency 'simplecov'
 
 end
